@@ -71,7 +71,6 @@ def register_process():
             alc_status = 'true'
             mem_data['alcohol'] = (alc)
             print(f"Congratulations, Registrations for {a} has been completed!")
-            print(mem_data)
             with open("member_data.json") as f:
                 list = json.load(f)
                 list.append(mem_data)
