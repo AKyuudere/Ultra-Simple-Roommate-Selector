@@ -1,0 +1,34 @@
+[
+    {
+        "name": "male_char1",
+        "gender": "male",
+        "hygiene": "little",
+        "smoking": "yes",
+        "pets": "yes",
+        "alcohol": "yes"
+    },
+    {
+        "name": "female_char1",
+        "gender": "female",
+        "hygiene": "lot",
+        "smoking": "no",
+        "pets": "yes",
+        "alcohol": "yes"
+    },
+    {
+        "name": "male_clone1",
+        "gender": "male",
+        "hygiene": "little",
+        "smoking": "yes",
+        "pets": "yes",
+        "alcohol": "yes"
+    },
+    {
+        "name": "female_clone1",
+        "gender": "female",
+        "hygiene": "lot",
+        "smoking": "no",
+        "pets": "yes",
+        "alcohol": "yes"
+    }
+]
