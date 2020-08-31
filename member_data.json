@@ -1,18 +1,32 @@
 [
     {
+        "name": "female_char1",
+        "gender": "femal",
+        "hygiene": "lot",
+        "smoking": "no",
+        "pets": "yes",
+        "guests": "yes",
+        "sharing": "yes",
+        "alcohol": "yes"
+    },
+    {
         "name": "male_char1",
         "gender": "male",
         "hygiene": "little",
         "smoking": "yes",
         "pets": "yes",
+        "guests": "yes",
+        "sharing": "no",
         "alcohol": "yes"
     },
     {
-        "name": "female_char1",
-        "gender": "female",
+        "name": "female_clone1",
+        "gender": "femal",
         "hygiene": "lot",
         "smoking": "no",
         "pets": "yes",
+        "guests": "yes",
+        "sharing": "yes",
         "alcohol": "yes"
     },
     {
@@ -21,14 +35,58 @@
         "hygiene": "little",
         "smoking": "yes",
         "pets": "yes",
+        "guests": "yes",
+        "sharing": "no",
         "alcohol": "yes"
     },
     {
-        "name": "female_clone1",
-        "gender": "female",
+        "name": "Justin",
+        "gender": "male",
         "hygiene": "lot",
         "smoking": "no",
         "pets": "yes",
+        "guests": "yes",
+        "sharing": "yes",
         "alcohol": "yes"
+    },
+    {
+        "name": "female_justin",
+        "gender": "femal",
+        "hygiene": "lot",
+        "smoking": "no",
+        "pets": "yes",
+        "guests": "yes",
+        "sharing": "yes",
+        "alcohol": "yes"
+    },
+    {
+        "name": "dog_test",
+        "gender": "other",
+        "hygiene": "little",
+        "smoking": "yes",
+        "pets": "yes",
+        "guests": "yes",
+        "sharing": "no",
+        "alcohol": "yes"
+    },
+    {
+        "name": "dog_clone",
+        "gender": "other",
+        "hygiene": "little",
+        "smoking": "yes",
+        "pets": "yes",
+        "guests": "yes",
+        "sharing": "no",
+        "alcohol": "yes"
+    },
+    {
+        "name": "bug_test",
+        "gender": "male",
+        "hygiene": "average",
+        "smoking": "no",
+        "pets": "no",
+        "guests": "no",
+        "sharing": "no",
+        "alcohol": "no"
     }
 ]
