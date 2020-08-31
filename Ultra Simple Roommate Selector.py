@@ -1,4 +1,4 @@
-# Name: ultra Simple Roommate Selector
+# Name: Ultra Simple Roommate Selector
 # By: J.Pak
 
 import json
@@ -7,6 +7,7 @@ mem_data = {}
 
 # Looking for Roommate or Registering as Potential Roommate
 # Registering adds new user entry into "member_data.json"
+# Check "member_data.json" for already registered users
 
 
 def roommate_selection():
@@ -18,10 +19,10 @@ def roommate_selection():
         a = input("Enter here: ")
         if a.lower() not in ('look', 'register'):
             print("Please enter 'look' or 'register'!")
-        elif a == 'register':
+        elif a.lower() == 'register':
             status = 'false'
             register_process()
-        elif a == 'look':
+        elif a.lower() == 'look':
             status = 'false'
             find_process()
 
@@ -141,7 +142,7 @@ def check_process():
         temp_value.append(e[key])
     temp_value.pop(0)
     for p in data:
-        if temp_value[0] in p['gender'] and temp_value[1] in p['hygiene'] and temp_value[2] in p['smoking'] and temp_value[3] in p['pets'] and temp_value[4] in p['alcohol']:
+        if temp_value[0] in p['gender'] and temp_value[1] in p['hygiene'] and temp_value[2] in p['smoking'] and temp_value[3] in p['pets'] and temp_value[4] in p['guests'] and temp_value[5] in p['sharing'] and temp_value[6] in p['alcohol']:
             potential_rm.append(p['name'])
     plength = len(potential_rm)
     potential_rm.remove(f'{look_name}')
@@ -160,7 +161,7 @@ def check_process_gi():
         temp_value.append(e[key])
     temp_value.pop(0)
     for p in data:
-        if temp_value[1] in p['hygiene'] and temp_value[2] in p['smoking'] and temp_value[3] in p['pets'] and temp_value[4] in p['alcohol']:
+        if temp_value[1] in p['hygiene'] and temp_value[2] in p['smoking'] and temp_value[3] in p['pets'] and temp_value[4] in p['guests'] and temp_value[5] in p['sharing'] and temp_value[6] in p['alcohol']:
             potential_rm.append(p['name'])
     plength = len(potential_rm)
     potential_rm.remove(f'{look_name}')
